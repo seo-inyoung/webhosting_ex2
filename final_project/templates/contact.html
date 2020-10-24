@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--헤더-->
+    <header>
+        <h1 class="logo"><a href="./index.html"><b>home</b></a></h1>
+        <nav class="nav">
+            <ul class="menu-list">
+                <li class="menu-list-item"><a href="./about_me.html">About me</a></li>
+                <li class="menu-list-item"><a href="./favorite.html">Favorite</a></li>
+                <li class="menu-list-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--form-->
+    <br><br><br><br>
+    <form action="#">
+        <span class="contact_text">-mail contact-</span>
+        <p style="font-size:15px; display:block; width:360px; margin:0px auto 30px auto; text-align:center;">이 메일은 "dlsdud0717_@naver.com"로 보내집니다.</p>
+        <span><label for="mail_adress">Your e-mail:</label>
+            <input id="mail_adress" type="email" style="width:450px;"></span>
+        <!--<p><label for="name">Name: </label>
+            <input id="name" type="text" style="width:525px;"></p><br>-->
+        <p><label for="mail_title">Title:</label>
+            <input id="mail_title" type="text" style="width:545px;"></p>
+        <p>
+            <label for="mail_content">Content: </label> <br>
+            <textarea name="mail_content" id="mail_content" cols="50" rows="5" placeholder="서비스 준비중입니다."></textarea>
+        </p>
+        <input class="btn_send" type="submit" value="send">
+    </form>
+    <div class="other_contact_box">
+        <span class="contact_text">-other contact-</span>
+        <span style="font-size:15px; display:block; width:360px; margin:0px auto 30px auto; text-align:center; font-family: 'Noto Sans KR', sans-serif;">클릭하면 이동합니다.(new browser)</span>
+        <table class="other_contact_table">
+            <tr><td><a href="https://www.instagram.com/s_iy717/" target="_blank"><img src="../static/images/contact/contact_insta.png" alt="인스타아이디:s_iy717"></a><br>
+                <span>s_iy717</span>
+            </td>
+            <td><a href="https://www.instagram.com/foodin_zero/" target="_blank"><img src="../static/images/contact/contact_insta.png" alt="인스타아이디:foodin_zere"></a><br>
+                <span>foodin_zero</span>
+            </td>
+            <td><a href="https://www.facebook.com/innnyoung/" target="_blank"><img src="../static/images/contact/contact_facebook.png" alt="서인영의 페이스북"></a><br>
+                <span>innnyoung</span>
+            </td></tr>
+        </table>
+    </div>
+</body>
+</html>
