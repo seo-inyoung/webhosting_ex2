@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--헤더-->
+    <header>
+        <h1 class="logo"><a href="./index.html"><b>home</b></a></h1>
+        <nav class="nav">
+            <ul class="menu-list">
+                <li class="menu-list-item"><a href="./about_me.html">About me</a></li>
+                <li class="menu-list-item"><a href="#">Favorite</a></li>
+                <li class="menu-list-item"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--슬라이더-->
+    <div id="slide">
+        <input type="radio" name="pos" id="pos1" checked>
+        <input type="radio" name="pos" id="pos2">
+        <input type="radio" name="pos" id="pos3">
+        <input type="radio" name="pos" id="pos4">
+        <ul>
+            <li><div class="li1">Travel</div></li>
+            <li><div class="li2">Food</div></li>
+            <li><div class="li3"><b>평소에 여행다니는 것도 좋아하고,<br> 맛집 찾아다는 것도 너무너무 좋아하는데요.<br>그동안 찍었던 사진들을<br> 정리해놓은 페이지입니다.</b></div></li>
+            <li><div class="li4"><b>즐겁게 구경하시고 가세용~!</b></div></li>
+        </ul>
+        <p class="pos">
+            <label for="pos1"></label>
+            <label for="pos2"></label>
+            <label for="pos3"></label>
+            <label for="pos4"></label>
+        </p>
+    </div>
+    <div class="favorite_page_link">
+        <p style="font-size:13px;">click "travel"or"food"!</p>
+        <a href="#travel">travel</a>
+        <a href="#food">food</a></div>
+    
+    <!--travel-->
+    <h2 id="travel" class="favorite_link">-travel-</h2>
+    <table class="favorite_table travel_table">
+        <tr>
+            <td><img src="../static/images/favorite/travel_table_1.jpg" alt="프랑스">Paris</td>
+            <td><img src="../static/images/favorite/travel_table_2.jpg" alt="시드니">Sydney</td>
+            <td><img src="../static/images/favorite/travel_table_3.jpg" alt="오사카">Osaka</td>
+        </tr>
+        <tr>
+            <td><img src="../static/images/favorite/travel_table_4.jpg" alt="홍콩">Hongkong</td>
+            <td><img src="../static/images/favorite/travel_table_5.jpg" alt="싱가포르">Singapore</td>
+            <td><img src="../static/images/favorite/travel_table_6.jpg" alt="런던">London</td>
+        </tr>
+        <tr>
+            <td><img src="../static/images/favorite/travel_table_7.jpg" alt="코타키나발루">Kotakinabalu</td>
+            <td><img src="../static/images/favorite/travel_table_8.jpg" alt="벨기에">Belgium</td>
+        </tr>
+    </table>
+    
+    <!--food-->
+    <h2 id="food" class="favorite_link">-food-</h2>
+    <p style="text-align: center;">서인영이 뽑은 최근 1년간의 맛집리스트입니당.</p>
+    <table class="favorite_table food_table">
+        <tr>
+            <td><img src="../static/images/favorite/food_table_1.jpg" alt="함양집(경주)">함양집(경주)</td>
+            <td><img src="../static/images/favorite/food_table_2.jpg" alt="개미집(부산)">개미집(부산)</td>
+            <td><img src="../static/images/favorite/food_table_3.jpg" alt="정통집(신촌)">정통집(신촌)</td>
+        </tr>
+        <tr>
+            <td><img src="../static/images/favorite/food_table_4.jpg" alt="라피자노스트라(선릉)">라피자노스트라(선릉)</td>
+            <td><img src="../static/images/favorite/food_table_5.jpg" alt="봉덕칼국수(의왕)">봉덕칼국수(의왕)</td>
+            <td><img src="../static/images/favorite/food_table_6.jpg" alt="낭만식당(안양)">낭만식당(안양)</td>
+        </tr>
+        <tr>
+            <td><img src="../static/images/favorite/food_table_7.jpg" alt="야바이(신촌)">야바이(신촌)</td>
+            <td><img src="../static/images/favorite/food_table_8.jpg" alt="존앤진피자(행궁동)">존앤진피자(행궁동)</td>
+            <td><img src="../static/images/favorite/food_table_9.jpg" alt="파이부(연남)">파이부(연남)</td>
+        </tr>
+    </table>
+</body>
+</html>
